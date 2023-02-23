@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+}
+
+h2 {
+    color: blue;
+    background-color: lightcoral;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 100px;
+    text-align: center;
+    width: 300px;
+    padding: 35px 0 0 0;
+}
+
+
+/* Text Shadow */
+
+
+/* Bottom & Right Shadow */
+
+.d {
+    color: darkred;
+    text-shadow: 10px 10px 6px red;
+    /* text-shadow: x y blur color; */
+    /* Direction  */
+    /* text-shadow: X=bottom; */
+    /* text-shadow: Y=Right; */
+    height: 100px;
+    width: 300px;
+    text-align: center;
+}
+
+
+/*  Text Top & Left Shadow */
+
+.r {
+    color: darkred;
+    text-shadow: -10px -10px 6px red;
+    /* text-shadow: -/Y=Left; */
+    /* text-shadow: -X=Top; */
+    height: 100px;
+    width: 300px;
+    text-align: center;
+}
+
+
+/*  Text Bottom & Right, Top & Left Shadow */
+
+.p {
+    color: darkred;
+    text-shadow: -10px -10px 6px red, 20px 20px 6px rgb(17, 0, 255);
+    /* text-shadow: -/Y=Left; */
+    /* text-shadow: -X=Top; */
+    /* text-shadow: X=bottom; */
+    /* text-shadow: Y=Right; */
+    height: 100px;
+    width: 300px;
+    text-align: center;
+}
+
+
+/*  Text 4 Side Shadow */
+
+.v {
+    color: darkred;
+    text-shadow: 0 0 10px red;
+    height: 100px;
+    width: 300px;
+    text-align: center;
+}
+
+.g {
+    font-weight: bold;
+    font-weight: bolder;
+    font-weight: 600;
+}
+
+.i {
+    font-style: italic;
+}
+
+.u {
+    text-decoration: Underline;
+    text-decoration: overline;
+    text-decoration: line-through;
+}
+
+
+/* Font defolt size 16px=1rem  */
+
+.s {
+    font-size: 38px;
+    font-size: 2rem;
+}
+
+
+/* Font first line thoda line & case  */
+
+#para {
+    text-indent: 100px;
+    text-transform: uppercase;
+}
